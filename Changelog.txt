@@ -1,0 +1,22 @@
+//////////////////////////////////////////////
+November 28th 2017
+Version 0.1 
+First working version. 
+- Arrow keys move a goose object
+- Goose has left-right animation
+- Press spacebar to honk
+- Music is working: /r/uwaterloo anime opening
+- Press plus or minue o change volume
+
+/////////////////////////////////////////////
+November 30th 2017
+Version 0.2
+Features added: 
+- Up/down animation
+- Whenever you press space and honk, one of three goose honking images will appear
+
+/////////////////////////////////////////////
+November 31st 2017 (at 1:38 AM) 
+Version 0.2A 
+OMG I FINALLY FIXED THIS STUPID FUCKING BUG WHERE IF U PRESS SPACEBAR TOO MUCH THE GOOSE STAYS ON SCREEN FOREVER IT TOOK FOREVER TO FIX BUT I FINALLY FIXED IT AUGHGHHGHGHGHHGHGHGHH I TRIED SO MANY THINGS LIKE SETTING THE GOOSE ALPHA TO 0 IN THE BEGINNING OF EVERY SPACE KEY PRESSED EVENT BUT THAT DIDNT WORK AND THE CALLBACK FUNCTION WOULDNT WORK EITHER FOR SO LONG UNTIL I FINALLY FIGURED OUT AFTER READING THEIR API THAT U NEEEED TO PASS IN A TWEEEN VALUE ASLKJASLKFJLKDJFLKSDJFLKSDJF
+BUT IT WORKS!!!!!!!!!!!!!!
