@@ -33,6 +33,11 @@ class PlayState extends FlxState
 	var rightAnimation:Bool;
 	var upAnimation:Bool;
 	var downAnimation:Bool;
+
+	var canLeft:Bool;
+	var canRight:Bool;
+	var canUp:Bool;
+	var canDown:Bool;
 		
 	override public function create():Void
 	{
@@ -164,7 +169,7 @@ class PlayState extends FlxState
 		}
 
 		//This is for the honking
-		if (FlxG.keys.justReleased.SPACE) { 
+		if (FlxG.keys.justPressed.SPACE) { 
 			soundHonk.play(true);
 
 			//Now, let's choose one at random! 
@@ -197,6 +202,11 @@ class PlayState extends FlxState
 		for (i in 0...3) {
 			FlxTween.tween(picHonk[i], {alpha : 0}, 0.2, {type: FlxTween.ONESHOT});
 		}
+	}
+
+	//This function takes in 
+	private function borderSecurity() {
+
 	}
 
 }
