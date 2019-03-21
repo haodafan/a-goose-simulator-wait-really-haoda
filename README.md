@@ -3,6 +3,13 @@ by Haoda Fan
 
 version 0.2A - Honk honk honk honk 
 
+# How to Run
+Currently my website is defunct so this is the only way to play it: 
+1. Clone the repo 
+2. Go to export/flash/bin and run the .swf file
+3. Have fun! 
+(Alternatively you could just download the .swf file from github and just run that)
+
 # How to Play
 Arrow keys to move around. Spacebar to honk. '+' and '-' to change volume of nice music. This isn't exactly a sophisticated simulation. 
 
